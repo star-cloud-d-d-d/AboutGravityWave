@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1 {
+  color: #5a9;
+}
+
+a {
+  display: block;
+  margin: 10px 0;
+  color: #007bff;
+  text-decoration: none;
+}
+.pct {
+    width: 750px; /* 設定寬度 */
+    height: auto; /* 讓高度自適應 */
+    float:right; /* 讓圖片變成區塊，避免與文字擠在一起 */
+    margin-left: 15px;
+}
+a:hover {
+  text-decoration: underline;
+}
