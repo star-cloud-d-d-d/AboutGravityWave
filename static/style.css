@@ -4,6 +4,11 @@ body{
   color:black;
   font-size:150%
 }
+@media(max-width: 600px){
+  body{
+    font-size:120%;
+  }
+}
 .spw{
   color: #160879; /*用來標示重點文字*/
 }
@@ -16,15 +21,16 @@ a{
   float:right;  /* 讓物體待在畫面右邊 */
   margin-left: 15px;
 }
-@media (max-width: 559px) {
+.boxf{
+  display:flex;
+  flex-direction:column; /* 讓圖片在上，文字在下 */
+  float:right; /* 讓物體待在畫面右邊 */
+  margin-left: 10px;
+}
+@media (max-width: 600px) {
   .boxf{
-    display:flex;
-    flex-direction:column; /* 讓圖片在上，文字在下 */
-    float:right; /* 讓物體待在畫面右邊 */
-    margin-left: 10px;
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 30px;
     height: 0;
     overflow: hidden;
   }
