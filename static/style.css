@@ -21,7 +21,6 @@ a{
   flex-direction:column; /* 讓圖片在上，文字在下 */
   float:right; /* 讓物體待在畫面右邊 */
   margin-left: 10px;
-  gap:10px; /* 讓它們之間有點間距 */
   flex-wrap:wrap; /* 如果空間不足，讓內容換行 */
   width:fit-content;
 }
