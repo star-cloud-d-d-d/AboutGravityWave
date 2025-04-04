@@ -8,12 +8,12 @@ def home():
     return render_template('index.html')
 
 # 路由：關於頁面
-@app.route('/補充說明')
+@app.route('/some')
 def about():
     return render_template('some.html')
 
 # 路由：聯繫頁面
-@app.route('/參考資料')
+@app.route('/ref')
 def contact():
     return render_template('ref.html')
 
