@@ -1,45 +1,40 @@
 body{
-  font-family: 微軟正黑體;
-  background-color:white;
-  color:black;
-  font-size:150%
+  font-family: 微軟正黑體; /*設定字體*/
+  background-color:white; /*設定背景顏色*/
+  color:black; /*設定文字顏色*/
+  font-size:150% /*調整文字大小*/
 }
 .spw{
-  color: #160879; /*用來標示重點文字*/
+  color:#160879; /*設定顏色 用來標示重點文字*/
 }
 
 a{
-  color: #6857e3;
-  text-decoration: none;
+  color:#6857e3; /*設定超連結顏色*/
 }
 .pct{
   float:right;  /* 讓物體待在畫面右邊 */
-  margin-left: 15px;
+  margin-left: 15px;  /*離左邊物件的距離*/
 }
 .boxf{
-  display:flex;
+  display:flex; /*設定flexbox*/
   flex-direction:column; /* 讓圖片在上，文字在下 */
-  float:right; /* 讓物體待在畫面右邊 */
+  float:right;
   margin-left: 10px;
-  flex-wrap:wrap; /* 如果空間不足，讓內容換行 */
-  width:fit-content;
+  width:fit-content; /*大小隨內容(圖片及文字)大小決定*/
 }
 .box{
   display:flex;
-  flex-direction:column; /* 讓圖片在上，文字在下 */
+  flex-direction:column;
   width:180px;
-  float:right;  /* 讓物體待在畫面右邊 */
+  float:right;
   margin-left:10px;
-  flex-wrap:wrap;
 }
-
 .imgr{
   width: 400px;
 }
-
 .jr{
   text-align:center; /*置中*/
-  margin-top:5px;
+  margin-top:5px; /**/
 }
 a:hover {
   text-decoration: underline; /*讓鼠標移到連結上時會有底線*/
