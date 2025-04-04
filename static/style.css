@@ -18,13 +18,10 @@ a{
 }
 @media (max-width: 559px) {
   .boxf{
-  display:flex;
-  flex-direction:column; /* 讓圖片在上，文字在下 */
-  width:fit-content; /* 讓框架自適應內容寬度 */
-  float:right; /* 讓物體待在畫面右邊 */
-  margin-left: 10px;
-  }
-  .boxf{
+    display:flex;
+    flex-direction:column; /* 讓圖片在上，文字在下 */
+    float:right; /* 讓物體待在畫面右邊 */
+    margin-left: 10px;
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px;
