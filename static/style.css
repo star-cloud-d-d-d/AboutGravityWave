@@ -4,11 +4,8 @@ body{
   color:black;
   font-size:150%
 }
-h4{
-  font-weight:bolder;
-}
 .spw{
-  color: #160879;
+  color: #160879; /*用來標示重點文字*/
 }
 
 a{
@@ -16,21 +13,21 @@ a{
   text-decoration: none;
 }
 .pct{
-  float:right; /* 讓圖片變成區塊，避免與文字擠在一起 */
+  float:right;  /* 讓物體待在畫面右邊 */
   margin-left: 15px;
 }
 .boxf{
   display:flex;
   flex-direction:column; /* 讓圖片在上，文字在下 */
   width:fit-content; /* 讓框架自適應內容寬度 */
-  float:right; /* 讓圖片變成區塊，避免與文字擠在一起 */
+  float:right; /* 讓物體待在畫面右邊 */
   margin-left: 10px;
 }
 .box{
   display:flex;
   flex-direction:column; /* 讓圖片在上，文字在下 */
-  width:180px; /* 讓框架自適應內容寬度 */
-  float:right; /* 讓圖片變成區塊，避免與文字擠在一起 */
+  width:180px;
+  float:right;  /* 讓物體待在畫面右邊 */
   margin-left: 10px;
 }
 
@@ -39,9 +36,9 @@ a{
 }
 
 .jr{
-  text-align:center;
+  text-align:center; /*置中*/
   margin-top:5px;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /*讓鼠標移到連結上時會有底線*/
 }
